@@ -6,7 +6,7 @@ $(function () {
 
         //console.log(  $(this).scrollTop() );
 
-        if (  $(this).scrollTop() > 1000  ) {
+        if (  $(this).scrollTop() > 1200  ) {
             // $('#toTop').fadeIn();
             navBar.addClass('bg-dark-subtle opacity-100');
 
@@ -19,4 +19,6 @@ $(function () {
     });
 
 
+const tooltipTriggerList = document.querySelectorAll('[data-bs-toggle="tooltip"]')
+const tooltipList = [...tooltipTriggerList].map(tooltipTriggerEl => new bootstrap.Tooltip(tooltipTriggerEl))
 });

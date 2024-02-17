@@ -7,4 +7,7 @@ body{
 }
 
 
-
+.custom-tooltip {
+    --bs-tooltip-bg: rgb(112, 101, 101);
+    --bs-tooltip-color: var(--bs-white);
+}
